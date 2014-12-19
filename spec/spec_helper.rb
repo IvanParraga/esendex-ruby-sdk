@@ -32,6 +32,10 @@ def random_mobile
   "447#{"%09d" % rand(999999999)}"
 end
 
+def random_characterset
+	['Auto', 'GSM', 'Unicode'].sample
+end
+
 def random_time
   Time.now + rand(9999)
 end
